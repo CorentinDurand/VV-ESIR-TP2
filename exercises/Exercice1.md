@@ -10,6 +10,7 @@ TCC et LCC produisent la même valeur dans deux cas différents. Le premier lors
 
 Comme exemple : Class Rectangle
 
+```java
 public class Rectangle {
     private double longueur;
     private double largeur;
@@ -31,6 +32,7 @@ public class Rectangle {
         return longueur == largeur;
     }
 }
+```
 
 Cette classe presente trois méthodes (aire, perimetre, estCarre) qui sont directement connectées (longueur, largeur). Nous avons TCC = LCC = 3/3 = 1.
 
