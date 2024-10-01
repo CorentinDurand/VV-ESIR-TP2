@@ -23,3 +23,13 @@ Use your rule with different projects and describe you findings below. See the [
 
 ## Answer
 
+Après avoir appliqué notre règle à divers projets, nous constatons qu'elle fonctionne correctement, comme le montre l'exemple d'Apache Commons Collections.
+
+Le code :
+
+![image](https://github.com/user-attachments/assets/c1ab5702-fca9-4b58-995e-256dd3ef4276)
+
+Le message :
+
+![image](https://github.com/user-attachments/assets/ff005970-a011-469a-89d4-432b843675ba)
+
