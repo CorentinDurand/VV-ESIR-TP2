@@ -12,6 +12,7 @@ import java.io.File;
 import java.io.IOException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.List;
 
 public class Main {
 
@@ -28,11 +29,13 @@ public class Main {
         }
 
         SourceRoot root = new SourceRoot(file.toPath());
-        PublicElementsPrinter printer = new PublicElementsPrinter("output.txt");
+        PublicElementsPrinter printer = new PublicElementsPrinter("output.csv");
         root.parse("", (localPath, absolutePath, result) -> {
             result.ifSuccessful(unit -> unit.accept(printer, null));
             return SourceRoot.Callback.Result.DONT_SAVE;
         });
+        List<Integer> ccValues = printer.getCcValues();
+        CyclomaticComplexityChart.displayHistogram(ccValues);
         printer.close();
     }
 

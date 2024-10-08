@@ -1,0 +1,7 @@
+Package: report
+  Class: report.Person
+    Private field without public getter: age
+Package: [No Package]
+  Class: TestCC
+Package: [No Package]
+  Class: ThreeIf

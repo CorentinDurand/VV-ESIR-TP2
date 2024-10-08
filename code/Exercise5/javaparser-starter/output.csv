@@ -1,0 +1,5 @@
+Package,Classe,Methode,Parametres,CC
+report,report.Person,getName,[],1
+report,report.Person,isAdult,[],1
+[No Package],TestCC,doIt,[int c1| int c2],3
+[No Package],ThreeIf,method,[int a| int b],8
