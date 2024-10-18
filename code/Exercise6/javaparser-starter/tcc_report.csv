@@ -1,0 +1,9 @@
+Package,Class,TCC
+org.apache.commons.collections4,ArrayStack,0.4
+org.apache.commons.collections4,ArrayUtils,1.0
+org.apache.commons.collections4,Bag,0.0
+org.apache.commons.collections4,BagUtils,0.6545454545454545
+org.apache.commons.collections4,BidiMap,0.0
+org.apache.commons.collections4,BoundedCollection,0.0
+org.apache.commons.collections4,BoundedMap,0.0
+,Rectangle,0.3333333333333333

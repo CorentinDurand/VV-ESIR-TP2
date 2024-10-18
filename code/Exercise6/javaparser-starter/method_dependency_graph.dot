@@ -1,0 +1,22 @@
+digraph G {
+	"synchronizedSortedBag" -> "synchronizedSortedBag";
+	"collectionBag" -> "collectionBag";
+	"transformingSortedBag" -> "transformingSortedBag";
+	"empty" -> "isEmpty";
+	"pop" -> "size";
+	"pop" -> "remove";
+	"predicatedBag" -> "predicatedBag";
+	"search" -> "size";
+	"search" -> "get";
+	"search" -> "equals";
+	"unmodifiableSortedBag" -> "unmodifiableSortedBag";
+	"indexOf" -> "indexOf";
+	"synchronizedBag" -> "synchronizedBag";
+	"predicatedSortedBag" -> "predicatedSortedBag";
+	"push" -> "add";
+	"peek" -> "size";
+	"peek" -> "get";
+	"contains" -> "indexOf";
+	"unmodifiableBag" -> "unmodifiableBag";
+	"transformingBag" -> "transformingBag";
+}
